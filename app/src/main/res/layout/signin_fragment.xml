@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="34dp"
+        android:background="@drawable/edit_border"
+        android:hint="Username"
+        android:inputType="textPersonName"
+        android:textSize="12sp"
+        android:drawableLeft="@drawable/account"
+        android:drawablePadding="5dp"
+        android:paddingLeft="10dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:background="@drawable/edit_border"
+        android:hint="Password"
+        android:inputType="textPersonName"
+        android:textSize="12sp"
+        android:paddingLeft="10dp"
+        android:drawableLeft="@drawable/lock"
+        android:drawablePadding="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/editText2"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/login"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/editText3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="58dp"
+        android:gravity="center"
+        android:text="Log in"
+        android:textSize="12sp"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:background="@drawable/edit_border"
+        android:backgroundTint="@color/colorPrimary"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/login"
+        android:layout_marginTop="38dp"
+        android:text="forget password?"
+        android:textColor="#673AB7"
+        android:gravity="center"
+        android:textSize="12sp" />
+
+
+</RelativeLayout>
